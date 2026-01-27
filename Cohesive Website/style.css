@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body, html {
+    background-color: rgb(41, 160, 216); 
+    font-family: 'Archivo', sans-serif;
+    height: 100%;
+  }
+  
+  h1 {
+  color: rgb(170, 4, 4);
+  text-align: center;
+  font-size: 48px;
+}
+
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(222, 222, 248);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(170, 4, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #website {
+  border-style: solid;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+  
+  .parallax {
+    /* The image used */
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3191030/09111eea505696f536011229830207f60122912a/capsule_616x353.jpg?t=1767036999");
+  
+    /* Set a specific height */
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .parallaxthree {
+    background-image: url("assets/Nubby.jpg");
+    
+    height: 100%;
+    width: 75%;
+    
+    background-size: cover; /* Resizes the image to cover the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: right; 
+
+  }
+  
+  .parallaxtwo {
+    /* The image used */
+    background-image: url("assets/color.png");
+  
+    /* Set a specific height */
+    height: 60%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  li a:hover {
+  background-color: white;
+  color: navy;
+}
+
+p {
+  font-size: 18px;
+  font-family: cursive;
+  line-height: 1.5;
+}
+
+#special {
+  background-color: white;
+  border: 2px dashed navy;
+  padding: 12px;
+}
